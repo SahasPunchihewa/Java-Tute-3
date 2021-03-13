@@ -1,0 +1,43 @@
+public class Q6
+{
+    public static void main(String[] args)
+    {
+        int i=1,j;
+        while(i<=8)
+        {
+            j=0;
+            if(i%2==0)
+            {
+                while(j<8)
+                {
+                    if(j%2==0)
+                    {
+                        System.out.print("Black-");
+                    }
+                    else
+                    {
+                        System.out.print("white-");
+                    }
+                    j++;
+                }
+            }
+            else
+            {
+                while(j<8)
+                {
+                    if(j%2==0)
+                    {
+                        System.out.print("white-");
+                    }
+                    else
+                    {
+                        System.out.print("Black-");
+                    }
+                    j++;
+                }
+            }
+            System.out.println();
+            i++;
+        }
+    }
+}
